@@ -22,12 +22,6 @@ class Tarefas extends Funcionarios{
 
   Tarefas(this.tarefas,super.nomeFuncionario, super.cpf, super.idCadastroFuncionarios);
 
-  void afazeres(){
-    for(int i = 0 ; i >= 0; i++ ){
-      return print('$nomeFuncionario, sua tarefa hoje é $tarefas');
-    }
-  }
-
 }
 
 class Clientes{
@@ -40,13 +34,6 @@ class Clientes{
   
   int get idCadastroClientes => _idCadastroClientes;
   set idCadastroFuncionarios(int value) => _idCadastroClientes = value;
-
-  
-  void chamar(){
-    if(opcao == 1){
-      return detalhesClientes();
-    }
-  }
 
   void detalhesClientes(){
     print('nome: $nomeClientes');
